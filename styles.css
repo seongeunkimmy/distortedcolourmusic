@@ -155,7 +155,7 @@ img {
 #project {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2em;
+    gap: 1.3em;
     padding-top: 20px;
     padding-bottom: 60px;
 }
@@ -163,12 +163,68 @@ img {
 .project-content img {
     width: 253px;
     height: 253px;
-    transition: transform .2s ease-in-out
+    transition: transform .2s ease-in-out;
 }
 
 .project-content :hover {
  transform: scale(1.1);
- border: 2px solid #fff;
+ border: 2px solid #444444;
+ box-shadow: 3px 7px 12px -5px rgba(0, 0, 0, 0.75);
+}
+
+.work-content {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    align-self: center;
+    background-color: #fff;
+    padding: 30px;
+    width: 60%;
+}
+
+.work-info {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.info-link {
+    font-weight: 500; 
+    color: black;
+}
+
+
+
+.work-link {
+    display: flex;
+    align-self: flex-end;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.work-content button {
+   font-weight: 500;
+   border-radius: 0;
+   border: 2px solid black;
+}
+
+.work-content button :hover{
+    color: #fff;
+}
+
+.modal-page {
+    height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.modal-page img {
+    width: 370px;
+    height: 370px;
+    border: 1px solid #202020;
 }
 
 /* -----------------------------------------------------------------live page */
@@ -187,5 +243,33 @@ img {
 /* ----------------------------------------------------------------contact page */
 
 .contact-content {
-    margin-bottom: 400px;
+    margin-bottom: 60px;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    margin: 10px;
+}
+
+.contact-form textarea {
+    margin: 10px;
+}
+
+.contact-form label {
+    font-weight: 600; 
+    
+}
+
+.contact-form button {
+    width: 262px;
+    align-self: center;
+    margin-top: 20px;
+}
+/* 
+@media (min-width: 768px) {
+
+} */
