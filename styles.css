@@ -22,7 +22,7 @@ body {
 }
 
 .logo-heading :hover {
-   color: #777777;
+   color: #444444;
 }
 
 /* header & nav */
@@ -98,7 +98,7 @@ img {
 /* newest */
 
 .newest {
-    background-color: #cccccc;
+    background-color: #eeeeee;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,21 +116,25 @@ img {
 
 .footer {
     background-color: #202020;
-    color: #cccccc;
+    color: #eeeeee;
     display: flex; 
     flex-direction: column;
     padding: 90px 20px;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .social-icon {
    padding: 10px;
    align-items: center;
    justify-content: space-around;
- 
+   color: #eeeeee;
+   transition: transform .1s ease-in-out;
+}
+
+.icons a :hover{
+    color: #fff;
+    transform: scale(1.1);
 }
 
 .copyright {
@@ -145,7 +149,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e6e6e6;
+    background-color: #eeeeee;
 }
 
 .page-header {
@@ -251,12 +255,10 @@ img {
     flex-direction: column;
 }
 
-.contact-form input {
-    margin: 10px;
-}
-
+.contact-form input,
 .contact-form textarea {
     margin: 10px;
+    border: 1px solid #444444
 }
 
 .contact-form label {
@@ -265,9 +267,13 @@ img {
 }
 
 .contact-form button {
-    width: 262px;
+    width: 135px;
+    font-size: 1.1rem;
     align-self: center;
     margin-top: 20px;
+    font-weight: 500;
+    border-radius: 0;
+    border: 2px solid #444444
 }
 /* 
 @media (min-width: 768px) {
