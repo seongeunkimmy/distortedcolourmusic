@@ -199,7 +199,6 @@ img {
 }
 
 
-
 .work-link {
     display: flex;
     align-self: flex-end;
@@ -286,12 +285,11 @@ img {
    }
 
    .about-heading {
-       width: 100%;
+       width: 400px;
    }
 
    .main-header {
        flex-direction: column;
-       width: 100%;
        align-items: center;
    }
    .nav-links {
@@ -308,8 +306,11 @@ img {
    }
 
    .live-content {
-       width: 100%;
-        
+       width: 100%;  
+   }
+
+   .live-content span {
+       font-size: 1rem;
    }
 
    .modal-page img {
