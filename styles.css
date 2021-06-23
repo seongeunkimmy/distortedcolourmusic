@@ -235,6 +235,9 @@ img {
 /* -----------------------------------------------------------------live page */
 
 .live-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 400px;
 }
 
@@ -300,7 +303,13 @@ img {
        flex-direction: column;
    }
    .work-content {
+       width: 90%;
        flex-direction: column;
+   }
+
+   .live-content {
+       width: 100%;
+        
    }
 
    .modal-page img {
@@ -312,8 +321,8 @@ img {
 }
 
 .newest-content iframe {
-     width: 400px;
-     height: 250px;
+     width: 350px;
+     height: 200px;
 }
 
 }
