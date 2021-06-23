@@ -68,6 +68,12 @@ img {
     height: 920px;
 }
 
+.toggle-button {
+    display: none;
+    font-size: 30px;
+    padding: 1rem;
+}
+
 /* about */
 
 .about {
@@ -275,7 +281,14 @@ img {
     border-radius: 0;
     border: 2px solid #444444
 }
-/* 
-@media (min-width: 768px) {
 
-} */
+@media (max-width: 768px) {
+   .toggle-button {
+       display: flex;
+   }
+
+   .nav-links {
+       display: none;
+   }
+
+}
