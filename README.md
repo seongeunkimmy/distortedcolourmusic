@@ -1,11 +1,11 @@
 # disrotedcolourmusic
 
-Artist web-site (Distorted Colour) 
+Artist web-site (Distorted Colour)
 
 **Built with**
 
-HTML/CSS
-Bootstrap
+HTML/CSS<br>
+Bootstrap<br>
 Formspree (Contact-form)
 
 **Netlify Link** 
