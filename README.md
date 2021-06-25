@@ -1,11 +1,13 @@
 # disrotedcolourmusic
 
-<i class="fab fa-readme"></i> Artist web-site (Distorted Colour) 
+Artist web-site (Distorted Colour) 
 
-**Built with
+**Built with**
 
 HTML/CSS
 Bootstrap
 Formspree (Contact-form)
 
-**Netlify Link**: https://youthful-curie-28b71c.netlify.app
+**Netlify Link** 
+
+➭ https://youthful-curie-28b71c.netlify.app
