@@ -191,6 +191,7 @@ img {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    margin: 20px;
 }
 
 .info-link {
@@ -217,12 +218,12 @@ img {
 }
 
 .modal-page {
-    height: 100vh;
     display: flex;
     align-self: center;
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    height: 100vh;
 }
 
 .modal-page img {
@@ -316,10 +317,13 @@ img {
    }
    .work-content {
        width: 90%;
-       height: 90vh;
+       height: 95%;
        flex-direction: column;
    }
-
+.modal-page{
+    margin: 20px auto;
+}
+   
    .live-content {
        width: 100%;  
    }
